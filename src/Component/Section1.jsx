@@ -135,7 +135,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="m-auto flex flex-col lg:flex-row w-[90%] lg:w-[100%] gap-8">
-          <div className="swapp">
+          <div className="swapp m-auto">
             <img className="swapp" src="/image/Frame 466.svg" alt="" />
           </div>
           <div className="w-[100%] lg:w-[50%] flex flex-col justify-center items-center lg:items-end">
