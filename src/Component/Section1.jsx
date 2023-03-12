@@ -7,7 +7,7 @@ const Section1 = () => {
       <div className="one">
         <div className=" w-[80%] lg:w-[62%] m-auto justify-between flex">
           <div className="desc purp1">
-            <p>Fast. Safe. Simple.</p>
+            <p className="m-auto">Fast. Safe. Simple.</p>
             <p className="flex items-center">
               <span className="text-[#25252F]">you</span>
               <span>
