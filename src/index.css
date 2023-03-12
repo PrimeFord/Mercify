@@ -19,5 +19,42 @@
   border-right: 1px solid #bfb5fa;
   border-radius: 20px;
 }
-
+.swapp {
+  display: none;
+}
+@media (max-width: 640px) {
+  :root {
+    font-size: 16px;
+  }
+  .hid {
+    display: none;
+  }
+  .hid2 {
+    display: none;
+  }
+  .hid3 {
+    display: none;
+  }
+  #hid3 {
+    display: none;
+  }
+  .swap {
+    display: none;
+  }
+  .swapp {
+    display: flex;
+  }
+  .purp::after,
+  .purp::before {
+    display: none;
+  }
+  .purp2::after,
+  .purp2::before {
+    display: none;
+  }
+  .purp3::after,
+  .purp3::before {
+    display: none;
+  }
+}
 @tailwind utilities;

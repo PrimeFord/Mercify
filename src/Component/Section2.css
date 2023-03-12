@@ -1,5 +1,5 @@
 .section2 {
-  @apply h-fit w-[100%]  mt-[8rem] text-[#B4B5B9];
+  @apply h-fit w-[100%] mt-[4rem] lg:mt-[8rem] text-[#B4B5B9];
 }
 .text-grad {
   font-size: 2rem;
@@ -7,6 +7,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .purp1::before {
   content: "";
   height: 12rem;

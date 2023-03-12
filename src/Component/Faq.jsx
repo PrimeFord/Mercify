@@ -4,18 +4,20 @@ import "./Faq.css";
 const Faq = () => {
   return (
     <div className="faq">
-      <div className="flex w-[80%] m-auto">
-        <div className="w-[35%]">
+      <div className="flex flex-col lg:flex-row w-[90%] lg:w-[80%] m-auto">
+        <div className="w-[100%] lg:w-[35%]">
           <p className="text-[2rem] leading-[2.4rem] text-grad">
             Frequently asked questions
           </p>
-          <p className="text-grad text-[1.5rem] mt-8 leading-[1.8rem]">
+          <p className="text-grad text-[1.2rem] lg:text-[1.5rem] mt-8 leading-[1.8rem]">
             Contact us via support if you have any more questions.
           </p>
         </div>
-        <div className="w-[65%] flex flex-col gap-12">
+        <div className="w-[100%] lg:w-[65%] flex mt-8 lg:mt-0 flex-col gap-12">
           <div className="w-[100%] text-[1rem]">
-            <h2 className="text-[white] font-[500] mb-4">What is tubecut?</h2>
+            <h2 className="text-[white] font-[500] mb-1 lg:mb-4">
+              What is tubecut?
+            </h2>
             <p className="text-[#B4B5B9]">
               Tubecut is a Mac App that allows you to download and trim youyube
               videos with Tubecut, you can download and trim youtube videos in
@@ -24,7 +26,7 @@ const Faq = () => {
             </p>
           </div>
           <div className="w-[100%] text-[1rem]">
-            <h2 className="text-[white] font-[500] mb-4">
+            <h2 className="text-[white] font-[500] mb-1 lg:mb-4">
               How can i purchase?
             </h2>
             <p className="text-[#B4B5B9]">
@@ -37,7 +39,7 @@ const Faq = () => {
             </p>
           </div>
           <div className="w-[100%] text-[1rem]">
-            <h2 className="text-[white] font-[500] mb-4">
+            <h2 className="text-[white] font-[500] mb-1 lg:mb-4">
               Where’ s my license key?
             </h2>
             <p className="text-[#B4B5B9]">
@@ -50,7 +52,7 @@ const Faq = () => {
             </p>
           </div>
           <div className="w-[100%] text-[1rem]">
-            <h2 className="text-[white] font-[500] mb-4">
+            <h2 className="text-[white] font-[500] mb-1 lg:mb-4">
               My downloaded video won’t open in Quicktime. What should i do?
             </h2>
             <p className="text-[#B4B5B9]">
@@ -63,7 +65,7 @@ const Faq = () => {
             </p>
           </div>
           <div className="w-[100%] text-[1rem]">
-            <h2 className="text-[white] font-[500] mb-4">
+            <h2 className="text-[white] font-[500] mb-1 lg:mb-4">
               What is your refund policy?
             </h2>
             <p className="text-[#B4B5B9]">
