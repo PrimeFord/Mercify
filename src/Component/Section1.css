@@ -1,0 +1,21 @@
+.section1 {
+  @apply h-fit w-[100%]  mt-[5rem] text-[#B4B5B9];
+}
+.one {
+  @apply w-[100%] m-auto flex flex-col gap-[5rem];
+}
+.desc {
+  @apply text-[3.5rem] flex flex-col gap-2 font-[500] text-[#B4B5B9] leading-[5rem];
+}
+.two {
+  @apply w-[100%] m-auto flex flex-col gap-20 mt-[5rem];
+}
+.list {
+  @apply h-[2rem] w-[13.4rem] flex justify-between items-center text-[.75rem] text-[#50505C]  bg-[#0D0E12] border-solid border-2 border-[#17181C] rounded-[.75rem] p-2;
+}
+.download {
+  @apply h-[2rem] w-[13.4rem] flex justify-center items-center text-[.75rem] text-[white]  bg-[#32323A] border-solid border-2 border-[#32323A] rounded-[.75rem] p-2;
+}
+.first {
+  @apply text-[white];
+}
