@@ -1,8 +1,6 @@
 # Mercify
-Mercify: This is a clone of tubecut website designed by Mercy (UIUX Designer)
-# Share_WebRouter
 
-Share Website Clone: This project is a clone of Share website. it is fully responsive on a mobile phone
+Mercify: This is a clone of tubecut website designed by Mercy (UIUX Designer)
 
 ## Getting Started
 
@@ -15,11 +13,9 @@ Clone or download this repository and run with a local server of open `index.htm
 ## Features
 
 - Home Page
-- Purpose Page
-- Community Page
-- Career Page
-- Learn Page
-- Location Page
+- About Page
+- FAQ Page
+- Footer
 
 ## Tech/framework used
 
@@ -31,19 +27,13 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Preview
 
-[Preview Here](https://hilarious-daffodil-d9f7b0.netlify.app)
+[Preview Here](https://mercify.vercel.app/)
 
 ![screenshot](./public/image/snip.png)
 ![screenshot](./public/image/snip2.png)
 ![screenshot](./public/image/snip3.png)
 ![screenshot](./public/image/snip4.png)
 ![screenshot](./public/image/snip5.png)
-![screenshot](./public/image/snip6.png)
-![screenshot](./public/image/snip7.png)
-![screenshot](./public/image/snip8.png)
-![screenshot](./public/image/snip9.png)
-![screenshot](./public/image/snip10.png)
-![screenshot](./public/image/snip11.png)
 
 ## Contact
 
