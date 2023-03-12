@@ -5,8 +5,8 @@ const Section1 = () => {
   return (
     <div className="section1">
       <div className="one">
-        <div className="w-[100%] justify-center flex gap-16">
-          <div className="desc">
+        <div className="w-[62%] m-auto justify-between flex">
+          <div className="desc purp1">
             <p>Fast. Safe. Simple.</p>
             <p className="flex">
               <span className="text-[#25252F]">you</span>
@@ -16,32 +16,37 @@ const Section1 = () => {
               ter
             </p>
           </div>
-          <div className="relative ml-4 h-fit w-[10rem]">
+          <div className="relative h-100% flex w-[40%]">
             <img
-              className=" absolute top-[3rem] left-[1rem] z-10"
+              className=" absolute top-[3rem] left-[8rem] z-10"
               src="/image/Frame 2.svg"
               alt=""
             />
             <img
-              className=" absolute top-[4rem] right-[3rem]"
+              className=" absolute top-[4rem] left-[3rem]"
               src="/image/Frame 3.svg"
               alt=""
             />
           </div>
         </div>
-        <div className="w-100%] flex justify-center ">
+        <div className="w-100% flex justify-center gap-6">
           <div className="w-[30%] relative">
-            <img className=" absolute" src="/image/Frame 5.svg" alt="" />
+            <img
+              className=" absolute top-[-1rem]"
+              src="/image/Frame 5.svg"
+              alt=""
+            />
+            <img
+              className=" absolute top-[1rem] left-[2rem] z-10"
+              src="/image/Frame 4.svg"
+              alt=""
+            />
             <img
               className=" absolute left-[10rem]"
               src="/image/Frame 20.svg"
               alt=""
             />
-            <img
-              className=" absolute top-[1.5rem] left-[2rem] z-10"
-              src="/image/Frame 4.svg"
-              alt=""
-            />
+
             <img
               className=" absolute left-[13.5rem] z-5"
               src="/image/Frame 7.svg"
@@ -53,13 +58,13 @@ const Section1 = () => {
               alt=""
             />
             <img
-              className=" absolute top-[7rem]"
+              className=" absolute top-[8rem]"
               src="/image/Frame 9.svg"
               alt=""
             />
           </div>
           <div className="w-[30%] flex flex-col gap-6">
-            <p className="leading-[1.4rem] font-[400]">
+            <p className="leading-[1.4rem] text-[1rem] pb-4 font-[400]">
               No ads, no bullshit. You can download YouTube videos in MP4 and
               MP3 formats. Tubecut will get you that video you wanted with the
               right quality and trimming.
@@ -129,10 +134,10 @@ const Section1 = () => {
             </div>
           </div>
         </div>
-        <div className="m-auto flex w-[100%] gap-6">
+        <div className="m-auto flex w-[100%] gap-8">
           <div className="w-[50%] flex flex-col justify-center items-end">
             <div className="w-[55%]">
-              <p className="text-[2rem] font-[500]">
+              <p className="purp2 text-[2rem] font-[500]">
                 <span className="first">Slice.</span>Cut. Finish.
               </p>
               <p className=" font-[400]">

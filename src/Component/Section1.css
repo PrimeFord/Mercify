@@ -2,10 +2,10 @@
   @apply h-fit w-[100%]  mt-[5rem] text-[#B4B5B9];
 }
 .one {
-  @apply w-[100%] m-auto flex flex-col gap-[5rem];
+  @apply w-[100%] m-auto flex flex-col gap-[4rem];
 }
 .desc {
-  @apply text-[3.5rem] flex flex-col gap-2 font-[500] text-[#B4B5B9] leading-[5rem];
+  @apply text-[3.4rem] flex flex-col gap-2 font-[500] text-[#B4B5B9] leading-[5rem];
 }
 .two {
   @apply w-[100%] m-auto flex flex-col gap-20 mt-[5rem];
