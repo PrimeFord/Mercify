@@ -7,7 +7,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .purp1::before {
   content: "";
   height: 12rem;
